@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.text__title{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 60px;
+  color: rgb(223, 217, 217);
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: red;
+}
+
+.text__title2{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  color: rgb(241, 237, 237);
+  padding-top: 20px;
+  -webkit-text-stroke: 2px rgb(35, 37, 141);
+  -webkit-text-fill-color: rgb(156, 53, 134);
+}
+
+
+.texttext{
+  font-family: 'Permanent Marker', cursive;
+}
+
+.texttexttext{
+  font-family: 'Permanent Marker', cursive;
+  align-items: flex-start;
+}
+
+.image {
+    position: absolute;
+    width: auto; /* Example width */
+    height: 200px; /* Example height */
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .image2 {
+    position: fixed;
+    margin-top: 200px;
+    width: 1000px; /* Example width */
+    height: 200px; /* Example height */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+  }
+
+  .image3 {
+    position: fixed;
+    margin-top: 400px;
+    width: 1000px; /* Example width */
+    height: 200px; /* Example height */
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+
+  .welcome-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ 
+    
+    z-index: -1; 
+  }
